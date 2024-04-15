@@ -1,0 +1,45 @@
+/* CSS Styles below are for the main "Welcome to FunkoWorld" info */
+
+/* Outline for the box that will contain all the information needed*/
+.mainbox{
+    border-radius: 3rem;
+    padding: 3rem;
+    margin: 5rem;
+    display: flex;
+    height: 50rem;
+   background-color: rgb(244, 245, 245);
+}
+
+/* Photo on the left hand side */
+.photoboxmain{
+    max-height: fit-content;
+    max-width: fit-content;
+   display: flex;  
+   justify-content: space-between;
+    align-content: flex-start; 
+}  
+
+/* Information on the right hand side */
+#containerinfo{
+    display: flex;
+    padding: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(0, 255, 255, 0);
+} 
+
+/* divided paragraphs in main information */
+.endinginfo{
+    margin-top: 2rem;
+}
+
+/* End of CSS Styles for  Welcome to FunkoWorld" info */
+
+/* CSS Styles below are for the Main page product display */
+
+.product-display{
+    padding: 3rem;
+    margin-bottom: 5rem;
+    display: flex;
+    height: 30rem;
+    background-color: rgb(244, 245, 245);
+}
