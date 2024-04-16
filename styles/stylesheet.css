@@ -30,7 +30,8 @@
     }
 
     .left-links a:hover{
-        background-color: #4e4e4e;
+        text-shadow: 0 0 10rem black;
+        transform: scale(1.2);
     }
 
     /* Right side links */
@@ -45,8 +46,8 @@
     }
 
     .right-links a:hover{
-        background-color: #4e4e4e;
-
+        text-shadow: 0 0 10rem black;
+        transform: scale(1.2);
     }
     /* Logo */
     .logo {
@@ -80,3 +81,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Little detail that allows an image to have a curve on the edges */
+img {
+    border-radius: 1rem;
+}

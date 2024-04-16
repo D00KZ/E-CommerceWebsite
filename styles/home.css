@@ -1,5 +1,14 @@
 /* CSS Styles below are for the main "Welcome to FunkoWorld" info */
 
+.product-display{
+    padding: 3rem;
+    margin-bottom: 5rem;
+    display: flex;
+    height: 30rem;
+    background-color: rgb(244, 245, 245);
+}
+
+
 /* Outline for the box that will contain all the information needed*/
 .mainbox{
     border-radius: 3rem;
@@ -36,10 +45,3 @@
 
 /* CSS Styles below are for the Main page product display */
 
-.product-display{
-    padding: 3rem;
-    margin-bottom: 5rem;
-    display: flex;
-    height: 30rem;
-    background-color: rgb(244, 245, 245);
-}

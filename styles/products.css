@@ -1,0 +1,114 @@
+/* Below is CCS used for the Deals section */
+/* Outline for the Deals section */
+.dealssection{
+    padding: 3rem;
+    margin: 5rem;
+    display: flex;
+    height: 40rem;
+    justify-content: center;
+    border-radius: 5rem;
+    background-color: rgb(244, 245, 245);
+}
+
+/* CSS for item one on deals */
+/* Photo for item 1 */
+.itemphoto1{
+    display: flex;
+    max-height: 25rem;
+    max-width: 25rem;
+    margin-top: 4rem;
+}
+
+.item1{
+    display: flex;
+    max-height: fit-content;
+    width: 50rem;
+    border-radius: 5rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.item1:hover{
+    box-shadow: 0 0 1rem black;
+    transform: scale(1.1);
+}
+
+/* Info for item 1 */
+.item1info{
+    padding: 1rem;
+    margin: 3rem;
+    height: 28rem;
+    width: 20rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+} 
+
+/* Price of item one */
+.price1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* CSS for item two on deals */
+/* Photo for item two */
+.itemphoto2{
+    display: flex;
+    max-height: 25rem;
+    max-width: 25rem;
+    margin-top: 4rem;
+}
+
+.item2{
+    display: flex;
+    max-height: fit-content;
+    width: 50rem;
+    border-radius: 5rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.item2:hover{
+    box-shadow: 0 0 1rem black;
+    transform: scale(1.1);
+}
+
+/* Info for item two */
+.item2info{
+    padding: 1rem;
+    margin: 3rem;
+    height: 28rem;
+    width: 20rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+} 
+
+/* Price of item two */
+.price2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.purchasablesection{
+    padding: 3rem;
+    margin: 3rem;
+    display: flex;
+    height: 40rem;
+    border-radius: 5rem;
+    background-color: rgb(244, 245, 245);
+}
+
+.buyers1{
+    display: flex;
+}
+
+.buyersphoto1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buyersphoto1:hover{
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem black;
+    transform: scale(1.1);
+}
+
