@@ -1,0 +1,26 @@
+.container5{
+    display: flex;
+    height: 70rem;
+    width: auto;
+    margin: 5rem;
+    border-radius: 3rem;
+    background-color: rgba(36, 34, 34, 0.089);
+}
+
+.productphoto{
+    height: 40rem;
+    width: 45rem;
+    border-radius: 2rem;
+    overflow: hidden; /* Optional: Prevent image overflow */
+    position: relative; /* Required for absolute positioning */ /* Prevents content from overflowing the container */
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.image {
+    position: absolute; /* Position image relative to container */
+    max-width: 40rem;/* Ensure image does not exceed container width */
+    max-height: 45rem; /* Ensure image does not exceed container height */
+    top: 50%; /* Position image at the center vertically */
+    left: 50%; /* Position image at the center horizontally */
+    transform: translate(-50%, -50%); /* Center image */
+}

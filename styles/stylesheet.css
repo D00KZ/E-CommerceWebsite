@@ -23,11 +23,11 @@
         display: flex;
     }
 
-    .left-links a {
+   .left-links a {
         color: #fff;
         text-decoration: none;
         margin-right: 15px;
-    }
+    } 
 
     .left-links a:hover{
         text-shadow: 0 0 10rem black;
@@ -85,3 +85,46 @@ footer a:hover {
 img {
     border-radius: 1rem;
 }
+
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f9f9f9;
+    padding-block: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+
+.box {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.box:hover .dropdown {
+    display: block;
+}
+
+.dropdown-content {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.dropdown-content li {
+    padding: 8px 0;
+}
+
+.dropdown-content li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    display: block;
+}
+
